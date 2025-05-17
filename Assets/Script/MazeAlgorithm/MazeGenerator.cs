@@ -9,7 +9,7 @@ public class MazeGenerator : MonoBehaviour
     [SerializeField] private MazeCell _mazeCellPrefab;
     [SerializeField] private TMP_InputField widthInputField;   // 미로 너비 입력 필드
     [SerializeField] private TMP_InputField depthInputField;   // 미로 깊이 입력 필드
-    [SerializeField] private float generationDelay = 0.01f;      // 생성 딜레이 (속도 조절)
+    [SerializeField] private float generationDelay = 0.000000001f;      // 생성 딜레이 (속도 조절)
 
     private int _mazeWidth;
     private int _mazeDepth;
@@ -27,7 +27,7 @@ public class MazeGenerator : MonoBehaviour
             }
         }
         // 이전에 생성된 타일(타일 마커가 붙은 오브젝트) 모두 제거
-        FloorTileMarker.RemoveAllFloorTiles();
+        TileManager.ClearAllTiles();
 
         // 입력 값 검증
         if (!int.TryParse(widthInputField.text, out int width) || width <= 0)

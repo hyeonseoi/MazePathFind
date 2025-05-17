@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: A_star
+  m_Name: Left_Hand
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: f7dc101e43670834cb4736ff7ac02d0a, type: 2}
+  m_Parent: {fileID: 2100000, guid: c5361a9e73563cd45b78e74348b15a6d, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -27,8 +27,8 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.28773582, b: 0.28773582, a: 1}
-    - _Color: {r: 1, g: 0.2877358, b: 0.2877358, a: 1}
+    - _BaseColor: {r: 0.3903536, g: 1, b: 0.28627455, a: 1}
+    - _Color: {r: 0.39035356, g: 1, b: 0.28627452, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &5974855509040939502
 MonoBehaviour:
